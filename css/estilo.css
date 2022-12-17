@@ -1,0 +1,298 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: white; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 90px 10px 90px;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    margin: 0, auto; 
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .navegador:hover{
+    border-bottom: 3px solid rgb(255, 145, 251);
+  }
+
+   a{
+    margin-left: 20px;
+    text-decoration: none;
+     }
+
+    .redes{
+    
+         display: flex;
+         justify-content: end;
+         margin: 0, auto;    
+        }
+
+    .iconosestilo{
+         color: rgb(77, 85, 90);
+     }
+    .iconosestilo:hover{
+         color: rgb(255, 145, 251);
+
+     }
+
+
+.section1{
+    background-color: rgb(255, 145, 251);
+    height: 70vh;
+    padding: 70px 145px 70px 145px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+   .presentacion{
+    margin-top: 35px;
+    width: 50%;
+     }
+     
+    img{
+        width: 50%
+    }
+
+    .imgRedonda{
+        width:400px;
+        height:400px;
+        border-radius: 50%;
+        border: 15px solid white;
+    }
+   
+ /* @media ver clase 8 a 55 min */
+
+.section2{
+    
+    height: 85vh;
+    padding: 90px 145px 90px 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   }
+
+   .titulo{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+        }
+
+   .textopresentacion{
+    display: flex;
+    justify-content: space-between;
+    }
+
+   .datospersonales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    
+.section3{
+        background-color: rgb(248, 249, 250);
+        padding: 90px 145px 90px 145px;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+
+        .iconosestilo2{
+             color: rgb(255, 145, 251);
+             font-size: 50px;
+        }
+
+    .section3a{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    
+    .section3b{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+
+    .section3c{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+.section4{
+        height: 85vh;
+        padding: 90px 145px 90px 145px;
+        }
+
+.section5{
+        background-color: rgb(248, 249, 250);
+        height: 135vh;
+        padding: 90px 145px 90px 145px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         }
+    
+    .misproyectos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+    .misproyectos>p:hover{
+          border-bottom: 3px solid rgb(255, 145, 251); 
+      }
+
+    .galeria1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .galeria2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .imggaleria{
+        opacity: 1;
+    }
+    .imggaleria:hover{
+        opacity: 0.7;
+    }
+
+
+    /*.lupa{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    font-size: 2rem;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    }
+
+    img:hover .lupa{
+        opacity: 1;
+
+    }*/
+
+
+    /*.galeria>div{
+        width: 100%;
+    }*/
+
+    .imggaleria{
+         width: 350px;
+         height: 350px;
+    }
+
+
+footer{
+        height: 85vh;
+        padding: 90px 145px 90px 145px;
+        background-color: rgb(255, 145, 251);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+        
+    .redesfooter{   
+        display: flex;
+        justify-content: start;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .formulariofooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    input{
+        text-decoration: none;
+        border-bottom: 1px solid black;
+    }
+
+button{
+        background-color: rgb(33, 37, 41);
+        width: 125px;
+        padding: 10px;
+        border: 0;
+    }
+
+button>p{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        color: white       
+    }   
+
+h1{
+        font-family: 'Dosis', sans-serif;
+        font-size: 50px;
+        font-weight: lighter;
+    }
+
+.h1bigger{
+        font-family: 'Dosis', sans-serif;
+        font-size: 60px;
+        font-weight: bolder;
+    }  
+    
+h2{
+        font-family: 'Dosis', sans-serif;
+        font-size: 42px;
+        
+        }
+    
+p{
+        font-family: 'Dosis', sans-serif;
+        font-size: 25px;
+    }
+    
+.p2{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+    }
+    
+.p3{
+        font-family: 'Dosis', sans-serif;
+        font-size: 30px;
+    }
+    
+    
+.fontweight{
+        font-weight: 700;
+    }
+strong{
+        border-bottom: 3px solid rgb(255, 145, 251);
+    }
+
+.centrartexto{
+    text-align: center;
+}
+
+
+    
