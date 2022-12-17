@@ -7,33 +7,35 @@
 header{
     display: flex;
     background-color: white; 
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 90px 10px 90px;
+    padding: 10px 145px 10px 145px;
+    width: 80%;    
   }
 
+  .fixed{
+    position: fixed;
+  }
+  
   nav{
     display: flex;
-    align-items: center;
-    margin: 0, auto; 
-    padding-right: 50px;
-    padding-left: 50px;
+    justify-content: space-between;
+    
   }
 
   .navegador:hover{
     border-bottom: 3px solid rgb(255, 145, 251);
   }
 
-   a{
+    a{
     margin-left: 20px;
+    margin-right: 20px;
     text-decoration: none;
      }
 
     .redes{
-    
          display: flex;
          justify-content: end;
-         margin: 0, auto;    
         }
 
     .iconosestilo{
@@ -47,8 +49,8 @@ header{
 
 .section1{
     background-color: rgb(255, 145, 251);
-    height: 70vh;
-    padding: 70px 145px 70px 145px;
+    height: 70hv;
+    padding: 120px 145px 120px 145px;
     display: flex;
     justify-content: space-between;
     }
@@ -249,6 +251,7 @@ button>p{
         color: white       
     }   
 
+    
 h1{
         font-family: 'Dosis', sans-serif;
         font-size: 50px;
