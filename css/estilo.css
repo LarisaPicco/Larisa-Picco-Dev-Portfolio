@@ -19,7 +19,7 @@ header{
   
   nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
   }
 
@@ -36,20 +36,30 @@ header{
     .redes{
          display: flex;
          justify-content: end;
+        
         }
 
     .iconosestilo{
          color: rgb(77, 85, 90);
+         font-size: 20px;
+         
      }
     .iconosestilo:hover{
          color: rgb(255, 145, 251);
+     }
 
+     .iconosestilob{
+        color: rgb(77, 85, 90);
+        font-size: 20px;
+     }
+     .iconosestilob:hover{
+        color: white;
      }
 
 
 .section1{
     background-color: rgb(255, 145, 251);
-    height: 70hv;
+    height: 100hv;
     padding: 120px 145px 120px 145px;
     display: flex;
     justify-content: space-between;
@@ -75,7 +85,7 @@ header{
 
 .section2{
     
-    height: 85vh;
+    height: 100vh;
     padding: 90px 145px 90px 145px;
     display: flex;
     flex-direction: column;
@@ -103,7 +113,7 @@ header{
 .section3{
         background-color: rgb(248, 249, 250);
         padding: 90px 145px 90px 145px;
-        height: 85vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -135,13 +145,24 @@ header{
 
 
 .section4{
-        height: 85vh;
+        height: 100vh;
         padding: 90px 145px 90px 145px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
         }
+
+
+       .curriculum{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+       }
 
 .section5{
         background-color: rgb(248, 249, 250);
-        height: 135vh;
+        height: 100vh;
         padding: 90px 145px 90px 145px;
         display: flex;
         flex-direction: column;
@@ -195,13 +216,13 @@ header{
     }*/
 
     .imggaleria{
-         width: 350px;
-         height: 350px;
+         width: 250px;
+         height: 250px;
     }
 
 
 footer{
-        height: 85vh;
+        height: 100vh;
         padding: 90px 145px 90px 145px;
         background-color: rgb(255, 145, 251);
         display: flex;
@@ -216,9 +237,10 @@ footer{
     }
         
     .redesfooter{   
+        width: 20%;
         display: flex;
-        justify-content: start;
-        padding: 0px 0px 0px 0px;
+        justify-content: space-between;
+
     }
 
     .formulariofooter{
@@ -283,6 +305,7 @@ p{
 .p3{
         font-family: 'Dosis', sans-serif;
         font-size: 30px;
+        font-weight: 900;
     }
     
     
