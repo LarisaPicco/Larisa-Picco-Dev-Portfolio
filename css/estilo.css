@@ -87,12 +87,6 @@ header{
 
    }
 
-   .titulo{
-         display: flex;
-         flex-direction: column;
-         justify-content: space-between;
-        }
-
    .textopresentacion{
     display: flex;
     justify-content: space-between;
@@ -118,25 +112,11 @@ header{
              font-size: 50px;
         }
 
-    .section3a{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-    }
-    
-    .section3b{
+        
+    .section3b, .section3c{
         display: flex;
         justify-content: space-between;
-    
-    }
-
-    .section3c{
-        display: flex;
-        justify-content: space-between;
-
-    }
-
+        }
 
 .section4{
         height: 100vh;
@@ -356,8 +336,8 @@ strong{
     text-align: center;
 }
 
-.cajita{
-    background-color: rgb(255, 145, 251);
-    width: 10%;
 
-}
+span{
+    background-color: rgb(255, 145, 251);
+    
+    }
