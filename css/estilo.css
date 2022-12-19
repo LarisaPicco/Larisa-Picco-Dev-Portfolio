@@ -137,13 +137,7 @@ header{
                 flex-direction: column;
                 justify-content: space-around;
        }
-
-       .miexperiencia{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-       }
-
+       
        .borderleft{
         border-left: 3px solid rgb(255, 145, 251);
        }
