@@ -9,7 +9,7 @@ header{
     background-color: white; 
     justify-content: space-between;
     align-items: center;
-    padding: 10px 145px 10px 145px;
+    padding: 8px 145px 8px 145px;
     width: 80%;    
   }
 
@@ -54,18 +54,29 @@ header{
 .section1{
     background-color: rgb(255, 145, 251);
     height: 100hv;
-    padding: 120px 145px 120px 145px;
+    padding: 120px 145px 80px 145px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     }
+    
+    .presentacion{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+    }
 
-   .presentacion{
+   .holasoy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-top: 35px;
-    width: 50%;
      }
-     
-    img{
-        width: 50%
+
+    .holasoy-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;    
     }
 
     .imgRedonda{
@@ -74,29 +85,50 @@ header{
         border-radius: 50%;
         border: 15px solid white;
     }
+
+    .buttons{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+    .buttons1{
+        background-color: rgb(33, 37, 41);
+        width: 160px;
+        padding: 10px;
+        border: 0;
+    }
    
+    .arrow{
+        text-align: center;
+        font-size: 35px;
+    }
+
  /* @media ver clase 8 a 55 min */
 
 .section2{
     
     height: 100vh;
-    padding: 90px 145px 90px 145px;
+    padding: 40px 145px 40px 145px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
-   }
-
-   .textopresentacion{
-    display: flex;
-    justify-content: space-between;
+    }
+    .lari{
+        width: 70%;
     }
 
-   .datospersonales{
+   .datospersonales, .textopresentacion{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     }
+    .exp{
+        display: flex;
+        flex-direction: column;
+        }
     
 .section3{
         background-color: rgb(248, 249, 250);
@@ -164,10 +196,9 @@ header{
             justify-content: space-between;
         }
        
-
 .section5{
         background-color: rgb(248, 249, 250);
-        height: 100vh;
+        height: 130vh;
         padding: 90px 145px 90px 145px;
         display: flex;
         flex-direction: column;
@@ -184,15 +215,10 @@ header{
           border-bottom: 3px solid rgb(255, 145, 251); 
       }
 
-    .galeria1{
+    .galeria{
         display: flex;
         justify-content: space-between;
     }
-    .galeria2{
-        display: flex;
-        justify-content: space-between;
-    }
-
     .imggaleria{
         opacity: 1;
     }
@@ -267,8 +293,8 @@ footer{
 
 button{
         background-color: rgb(33, 37, 41);
-        width: 125px;
-        padding: 10px;
+        width: 110px;
+        padding: 7px;
         border: 0;
     }
 
@@ -287,7 +313,7 @@ h1{
 
 .h1bigger{
         font-family: 'Dosis', sans-serif;
-        font-size: 60px;
+        font-size: 70px;
         font-weight: bolder;
     }  
     
@@ -330,12 +356,15 @@ strong{
     text-align: center;
 }
 
-
 span{
     background-color: rgb(255, 145, 251);
-    
     }
 
-/*.word-spacing{
-    word-spacing: 180px;
-}*/
+.dot{
+    height: 85px;
+    width: 85px;
+    background-color: rgb(255, 145, 251);
+    border-radius: 50%;
+    display: inline-block;
+      }
+  
