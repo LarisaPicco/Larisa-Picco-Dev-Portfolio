@@ -144,11 +144,14 @@ header{
              font-size: 50px;
         }
 
-        
     .section3b, .section3c{
         display: flex;
         justify-content: space-between;
         }
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
 
 .section4{
         height: 130vh;
@@ -247,8 +250,8 @@ header{
     }*/
 
     .imggaleria{
-         width: 250px;
-         height: 250px;
+         width: 300px;
+         height: 300px;
     }
 
 
