@@ -15,11 +15,11 @@ Podrás acceder a mis redes y otros datos de contacto en caso que desees comunic
 <hr>
 <h3>Funcionalidad</h3>
 
-🙋🏻 Conocerme a través de mi información personal
-🖋️ Profundizar sobre mi formación académica y sevicios que realizo
-📧 Acceder a mis datos de contacto
-📑 Descargar mi Curriculum Vitae
-🖼️ Visualizar mis proyectos desde mi Portfolio
+<p>🙋🏻 Conocerme a través de mi información personal</p>
+<p>🖋️ Profundizar sobre mi formación académica y sevicios que realizo</p>
+<p>📧 Acceder a mis datos de contacto</p>
+<p>📑 Descargar mi Curriculum Vitae</p>
+<p>🖼️ Visualizar mis proyectos desde mi Portfolio</p>
 
 <hr>
 <h3>Lenguaje utilizado:</h3>
