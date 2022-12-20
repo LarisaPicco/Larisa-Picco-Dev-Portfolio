@@ -8,17 +8,18 @@ más sobre mi formación académica y sevicios, en la sección de Servicios y Cu
 En la sección de Portfolio pueden visualizarse algunos de mis proyectos recientes.
 Podrás acceder a mis redes y otros datos de contacto en caso que desees comunicarte conmigo para realizar un futuro proyecto.
 
+<hr>
 ![Portada readme](https://user-images.githubusercontent.com/120819110/208641386-2702adbe-2fcc-410f-85a4-f6aaf7db9cbd.png)
 
 
 <hr>
 <h3>Funcionalidad</h3>
 
-- Conocerme a través de mi información personal
-- Profundizar sobre mi formación académica y sevicios que realizo
-- Acceder a mis datos de contacto
-- Descargar mi Curriculum Vitae
-- Visualizar mis proyectos desde mi Portfolio
+🙋🏻 Conocerme a través de mi información personal
+🖋️ Profundizar sobre mi formación académica y sevicios que realizo
+📧 Acceder a mis datos de contacto
+📑 Descargar mi Curriculum Vitae
+🖼️ Visualizar mis proyectos desde mi Portfolio
 
 <hr>
 <h3>Lenguaje utilizado:</h3>
