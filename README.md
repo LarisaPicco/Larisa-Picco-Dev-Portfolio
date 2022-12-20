@@ -15,6 +15,8 @@ Podrás acceder a mis redes y otros datos de contacto en caso que desees comunic
 <hr>
 <h3>Funcionalidad</h3>
 
+Podrás
+
 <p>🙋🏻 Conocerme a través de mi información personal</p>
 <p>🖋️ Profundizar sobre mi formación académica y sevicios que realizo</p>
 <p>📧 Acceder a mis datos de contacto</p>
