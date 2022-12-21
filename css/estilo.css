@@ -13,10 +13,7 @@ header{
     width: 80%;    
   }
 
-  .fixed{
-    position: fixed;
-  }
-  
+
   nav{
     display: flex;
     justify-content: space-around;
@@ -412,4 +409,7 @@ span{
     border-radius: 50%;
     display: inline-block;
       }
-  
+      .fixed{
+        position: fixed;
+      }
+      
