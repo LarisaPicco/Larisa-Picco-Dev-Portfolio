@@ -2,7 +2,9 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
 }
 
 header{
@@ -13,11 +15,18 @@ header{
     padding: 8px 145px 8px 145px;
      }
 
+     .fixed{
+        position: sticky;
+        top: 0;
+        left:0;
+      }
+      
 
   nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 
   }
 
@@ -29,6 +38,7 @@ header{
     .redes{
          display: flex;
          justify-content: end;
+         gap: 15px;
         
         }
 
@@ -49,10 +59,6 @@ header{
         color: white;
      }
      
-     a{
-        
-        text-decoration: none;
-         }
     
 .section1{
     background-color: rgb(255, 145, 251);
@@ -265,7 +271,6 @@ header{
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        font-family: 'Dosis', sans-serif;
         text-align: center;
     }
     
@@ -288,12 +293,13 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        gap: 10px;
     }
         
     .redesfooter{   
-        width: 20%;
         display: flex;
-        justify-content: space-between;
+        justify-content: start;
+        gap: 15px
 
     }
 
@@ -322,7 +328,6 @@ footer{
     input, textarea {
         outline: none;
         background-color: transparent;
-        font-family: 'Dosis', sans-serif;
         font-size: 20px;        
         border: none;
         border-bottom: 1px solid rgba(0,0,0,0.5);
@@ -347,42 +352,36 @@ button{
     }
 
 button>p{
-        font-family: 'Dosis', sans-serif;
         font-size: 20px;
         color: white       
     }   
 
     
 h1{
-        font-family: 'Dosis', sans-serif;
         font-size: 50px;
         font-weight: lighter;
     }
 
 .h1bigger{
-        font-family: 'Dosis', sans-serif;
         font-size: 70px;
         font-weight: bolder;
     }  
     
 h2{
-        font-family: 'Dosis', sans-serif;
         font-size: 42px;
         
         }
     
 p{
-        font-family: 'Dosis', sans-serif;
         font-size: 25px;
     }
     
 .p2{
-        font-family: 'Dosis', sans-serif;
+    
         font-size: 20px;
     }
     
 .p3{
-        font-family: 'Dosis', sans-serif;
         font-size: 30px;
         font-weight: 900;
     }
@@ -411,9 +410,3 @@ span{
     display: inline-block;
       }
 
-.fixed{
-        position: sticky;
-        top: 0;
-      left:0;
-      }
-      
