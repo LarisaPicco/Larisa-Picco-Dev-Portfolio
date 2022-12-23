@@ -63,7 +63,10 @@ header{
 .section1{
     background-color: rgb(255, 145, 251);
     height: 100hv;
-    padding: 120px 145px 80px 145px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 145px;
+    padding-right: 145px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -79,7 +82,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 35px;
      }
 
     .holasoy-buttons{
@@ -119,12 +121,12 @@ header{
 .section2{
     
     height: 100vh;
-    padding: 40px 145px 40px 145px;
+    padding: 10px 145px 10px 145px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     }
+
     .lari{
         width: 70%;
     }
@@ -142,11 +144,11 @@ header{
     
 .section3{
         background-color: rgb(248, 249, 250);
-        padding: 90px 145px 90px 145px;
+        padding: 40px 145px 40px 145px;
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         }
 
         .iconosestilo2{
@@ -154,7 +156,7 @@ header{
              font-size: 50px;
         }
 
-    .section3b, .section3c{
+    .section3b{
         display: flex;
         justify-content: space-between;
         }
@@ -164,8 +166,8 @@ header{
     }
 
 .section4{
-        height: 130vh;
-        padding: 90px 145px 90px 145px;
+        height: 120vh;
+        padding: 80px 145px 80px 145px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -181,6 +183,7 @@ header{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
+                gap: 10px;
        }
        
        .borderleft{
@@ -211,8 +214,8 @@ header{
        
 .section5{
         background-color: rgb(248, 249, 250);
-        height: 130vh;
-        padding: 90px 145px 90px 145px;
+        height: 120vh;
+        padding: 80px 145px 80px 145px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -282,31 +285,31 @@ header{
 
 footer{
         height: 100vh;
-        padding: 90px 145px 90px 145px;
+        padding: 50px 145px 50px 145px;
         background-color: rgb(255, 145, 251);
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
-    .contacto{
+    .contacto, .formulariofooter{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        gap: 10px;
-    }
+        justify-content: space-around;
         
+    }
+    
+    .domicilio{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+
     .redesfooter{   
         display: flex;
         justify-content: start;
         gap: 15px
 
-    }
-
-    .formulariofooter{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
     form{
@@ -410,3 +413,9 @@ span{
     display: inline-block;
       }
 
+     
+     hr{
+        border-bottom: none;
+       color: rgba(0,0,0,0.5);
+
+     }
