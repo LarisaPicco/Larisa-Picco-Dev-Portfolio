@@ -16,7 +16,7 @@ header{
      }
 
      .fixed{
-        position: fixed;
+        position: sticky;
         top: 0;
         left:0;
       }
@@ -119,9 +119,11 @@ header{
     }
 
 .section2{
-    
     height: 100vh;
-    padding: 5px 145px 5px 145px;
+    padding-top: 40px;
+    padding-right: 145px;
+    padding-bottom: 40px;
+    padding-left:  145px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
