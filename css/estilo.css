@@ -121,7 +121,7 @@ header{
 .section2{
     
     height: 100vh;
-    padding: 8px 145px 8px 145px;
+    padding: 5px 145px 5px 145px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
