@@ -422,3 +422,23 @@ span{
        color: rgba(0,0,0,0.5);
 
      }
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* responsive para ver luego
+@media(max-width:1023px){
+    .container{
+        flex-basis: 50%;
+    }
+    
+}
+
+
+@media (max-width:767px){
+      .container{
+        flex-basis: 100%;
+      }
+
+}*/
